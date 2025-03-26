@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    scroll-padding: 5rem;
+}
+
+.Container {
+    margin: 0 auto;
+    width: 80%;
+}
+.logoTxt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-weight: bold;
+}
+.logoTxt img {
+    height: 90px;
+    width: 90px;
+}
+.navbar {
+    display: flex;
+    /* gap: 90px; */
+    gap: 13%;
+    /* background-color: azure; */
+}
+.navoptions {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    align-items: center;
+
+}
+.navoptions a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+   
+}
+
+.navButtons{
+    display: flex; 
+    flex-direction: row;
+    gap: 0px;
+    align-items: center;
+}
+
+.navHeader {
+    padding: 5px 0;
+    /* background-color: rgb(104, 100, 100); */
+}
+
+.navButtons button{
+    border: none;
+    padding: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-right: 10px;
+
+}
+.SignUp {
+    background-color: rgb(59, 59, 239);
+    color: azure;
+}

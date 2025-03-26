@@ -1,0 +1,68 @@
+.cardInner{
+    width:300px;
+    border: 1px solid grey;
+    border-radius: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 10px 10px 10PX 10PX rgb(145, 145, 147);
+    transition: transform 0.3s ease-in-out;
+}
+.cardInner:hover{
+transform:scale(1.30);
+}
+
+.cardOuter{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+.cardInner img{
+    width: 100%;
+    height: 200px;
+    /* border-radius: 10px; */
+}
+.Rating i{
+    color: blue;
+    padding:5px
+}
+.fees{
+    color: white;
+    background-color: blue;
+    width: 25px;
+}
+.bottomContent{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 20px;
+    padding: 10px;
+
+}
+.bottomContent i{
+    color: blue
+}
+
+.cardParent{
+    display: flex;
+    flex-direction: column; 
+    gap: 20px;
+    /* height: 100vh; */
+}
+.cardTitle{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+}
+.fees{
+    position: absolute;
+    right: 5px;
+    top: 187px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.ratingsLine{
+    background-color: black;
+    height: 1px;
+}

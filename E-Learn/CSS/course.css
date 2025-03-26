@@ -1,0 +1,35 @@
+.course-Sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+.course-SecTxt{
+    font-weight: bold;
+    font-size:20px;
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.Course-secButton button{
+    width: 120px;
+    background-color:white;
+    color:rgb(59, 59, 239);
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid rgb(59, 59, 239);
+
+}
+.underLine{
+    width:200px;
+    height: 5px;
+    background-color: rgb(59, 59, 239);
+    height: 5px;
+    border-radius: 10px;
+    
+}

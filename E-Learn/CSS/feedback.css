@@ -1,0 +1,93 @@
+.bottomSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 0;
+    gap: 80px;
+}
+.underr{
+    width: 200px;
+    height: 5px;
+    background-color: rgb(59, 59, 239);
+    border-radius: 10px;  
+    
+}
+.leftImg img{
+    width: 400px;
+    height: 400px;
+    box-shadow: 10px 10px 10px 10px  grey;
+    border-radius: 15px;
+}
+.professionalImg img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid grey;
+   
+    
+}
+.professionalImg{
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    gap: 20px;
+    padding: 30px 0;
+    /* position: relative; */
+}
+
+.leftImg{
+    position: relative;
+}
+
+.leftImg i{
+    font-weight: 20px;
+    position: absolute;
+    left: 159px;
+    top: -26px;
+    font-size: 50px;
+}
+
+.feedbackRating i{
+    color: blue;
+    padding:5px
+}
+.arrowButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5px;
+}
+.studentfeedbackRating{
+ 
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    gap: 50px;
+    padding: 30px 0;
+}
+.arrowButton i{
+    color: blue;    
+    padding: 5px;  
+}
+.arrowButton button{
+    border: none;
+    height: 30px;
+    width: 90px;
+    border-radius: 10px;
+    border: 1px solid blue;
+
+}
+.rightImg h3{
+    padding: 20px 0;
+    font-size: 30px;
+}
+.feedbackImg p{
+    line-height: 30px;
+}
+.professionalImg h4{
+    font-size: 30px;
+}
+.professionalImg h5{
+    font-size: 14px;
+    padding: 5px 0;
+}

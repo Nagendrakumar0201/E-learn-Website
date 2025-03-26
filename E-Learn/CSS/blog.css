@@ -1,0 +1,66 @@
+.arrowButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5px;
+}
+.arrowButton i{
+    color: blue;    
+    padding: 5px;  
+}
+.latestBlog p{
+    width: 200px;
+    height: 5px;
+    background-color: rgb(59, 59, 239);
+    border-radius: 10px;  
+}
+.latestBlog{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.blogContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.latestBlog h5{
+    font-size: 30px;
+}
+.blogSection{
+    background-color: rgb(216, 216, 216);
+}
+.blogyearsection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+.blogcardOuter{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding-bottom: 50px;
+}
+.blogcardInner{
+    width:100%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border: 1px solid grey;
+    box-shadow: 10px 10px 10PX  rgb(167, 164, 164);
+    /* padding: 5px 0; */
+}
+.blogcardInner img{
+    width: 100%;
+    height: 200px;
+}
+.blogparagraph p{
+    padding: 10px;
+    font-weight: bold;
+}
+.readblog a{
+    text-decoration: none;
+    padding: 10px;
+}
